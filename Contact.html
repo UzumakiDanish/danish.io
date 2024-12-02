@@ -1,0 +1,144 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        /* Sidebar */
+        .sidebar {
+            width: 20%;
+            background-color: #D5C58A;
+            padding: 30px 20px;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .sidebar img {
+            width: 80%;
+            border-radius: 50%;
+            border: 4px solid #fff;
+            margin-bottom: 20px;
+        }
+        .sidebar nav a {
+            display: block;
+            color: #333;
+            text-decoration: none;
+            padding: 10px 0;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        .sidebar nav a:hover {
+            color: #555;
+        }
+        .experience-title {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #444;
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 15px;
+            background-color: #D5C58A;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        /* Main Content */
+        .main-content {
+            width: 80%;
+            padding: 40px;
+            background-color: #fff;
+            background: url('Wallpaper Content.jpg') no-repeat center center/cover;
+            position: relative;
+        }
+        /* Card Grid */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .card {
+            background-color: #D5C58A;
+            border: 10px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .card-title {
+            font-size: 1em;
+            padding: 10px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <img src="profile.jpg" alt="Me">
+        <nav>
+            <a href="#">Home</a>
+            <a href="test.html">About</a>
+            <a href="#">Experience</a>
+            <a href="education.html">Education</a>
+            <a href="Family.html">Family</a>
+            <a href="Achievement.html">Achievement</a>
+        </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <h1 class="experience-title">Contact</h1>
+        <section class="card-grid">
+            <div class="card">
+                <img src="PublicGold.jpg" alt="Milionaire By 30 Program">
+                <div class="card-title">I have been involved in the "Millionaire By 30" program held by Public Gold at Tun Razak Exchange in October 2024</div>
+            </div>
+            <div class="card">
+                <img src="Intern.jpg" alt="Internship">
+                <div class="card-title">I have carried out industrial training at UiTM Segamat postgraduate division which took place in July 2024</div>
+            </div>
+            <div class="card">
+                <img src="ChefKecik.jpg" alt="Chef Kecik Cafe">
+                <div class="card-title">During midsem holidays, I filled my free time by working part-time as a service crew at Chef Kecik, Eco Majestic</div>
+            </div>
+            <div class="card">
+                <img src="Banjir1.jpg" alt="Post-Flood Volunteer Program">
+                <div class="card-title">Post-Flood Volunteer Program" in Segamat which was held in March 2023</div>
+            </div>
+            <div class="card">
+                <img src="Masjid.jpg" alt="Community Program">
+                <div class="card-title">I participated in a community program in the form of mutual aid at Surau Bagan Lalang in March 2017</div>
+            </div>
+            <div class="card">
+                <img src="PLKN.jpg" alt="PLKN Mantin">
+                <div class="card-title">I have undergone identity formation training at PLKN Mantin which took place in 2014</div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
